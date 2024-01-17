@@ -17,6 +17,7 @@
   overflow: hidden;
   box-shadow: 3px 3px 2px 1px #17c3b2;
   transition: ease-in-out 0.5s;
+  /* background-image: url(../../images/Offers/ABU_DHABI.jpg); */
 }
 
 .offer:hover {

@@ -463,32 +463,32 @@ const hotels = [
   {
     offerTitle: "Holidays Suites Navona - ITALY",
     offerPricespan: "€149,00",
-    offerImage: "../../images/Offers/Italy.jpg",
+    offerImage: "./images/Offers/Italy.jpg",
   },
   {
     offerTitle: "Kantua hotel - THAILAND",
     offerPricespan: "€99,00",
-    offerImage: "../../images/Offers/THAILAND.jpg",
+    offerImage: "./images/Offers/THAILAND.jpg",
   },
   {
     offerTitle: "NH Madrid Zurbano - MADRID",
     offerPricespan: "€89,00",
-    offerImage: "../../images/Offers/MADRID.jpg",
+    offerImage: "./images/Offers/MADRID.jpg",
   },
   {
     offerTitle: "Royal Plaza Hotel - HONG KONG",
     offerPricespan: "€89,00",
-    offerImage: "../../images/Offers/HONG_KONG.jpg",
+    offerImage: "./images/Offers/HONG_KONG.jpg",
   },
   {
     offerTitle: "Le Meridien - ABU DHABI",
     offerPricespan: "€109,00",
-    offerImage: "../../images/Offers/ABU_DHABI.jpg",
+    offerImage: "./images/Offers/ABU_DHABI.jpg",
   },
   {
     offerTitle: "Arbat's Stars - MOSCOW",
     offerPricespan: "€100,00",
-    offerImage: "../../images/Offers/MOSCOW.jpg",
+    offerImage: "./images/Offers/MOSCOW.jpg",
   },
 ];
 
