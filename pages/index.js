@@ -488,7 +488,7 @@ const hotels = [
   {
     offerTitle: "Arbat's Stars - MOSCOW",
     offerPricespan: "€100,00",
-    offerImage: "./images/Offers/Moscow.jpg",
+    offerImage: "./images/Offers/Kremlin.jpg",
   },
 ];
 
