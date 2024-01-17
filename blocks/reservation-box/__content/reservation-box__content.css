@@ -1,0 +1,16 @@
+.reservation-box__content{
+  width: 100%;
+  max-width: 1131px;
+  margin-top: 22px;
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 940px) {
+  .reservation-box__content {
+    padding-bottom: 10px;
+    flex-direction: column;
+    align-items: center;
+  }
+}

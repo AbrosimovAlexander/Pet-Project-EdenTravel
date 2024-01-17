@@ -1,0 +1,13 @@
+.popup__offer{
+  background-image: url(../../../images/Offers/ABU_DHABI.jpg);
+  width: 80%;
+  height: 80%;
+  box-shadow: none;
+  box-sizing: border-box;
+  border: 1px solid #17C3B2;
+}
+
+.popup__offer:hover{
+  transform: none;
+  cursor:auto;
+}

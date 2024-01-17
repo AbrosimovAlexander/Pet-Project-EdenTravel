@@ -1,0 +1,11 @@
+.footer__contact-zone{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 940px) {
+  .footer__contact-zone {
+    align-items: center;
+  }
+}

@@ -1,0 +1,14 @@
+.block__text-block{
+  width: 100%;
+  max-width: 1131px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+@media screen and (max-width: 940px) {
+  .block__text-block {
+    gap: 10px;
+    max-width: 300px;
+  }
+}

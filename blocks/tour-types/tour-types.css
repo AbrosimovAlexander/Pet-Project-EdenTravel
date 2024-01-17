@@ -1,0 +1,9 @@
+.tour-types{
+  width: 100%;
+  min-height: 690px;;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #17C3B2;
+  gap: 58.23px;
+}

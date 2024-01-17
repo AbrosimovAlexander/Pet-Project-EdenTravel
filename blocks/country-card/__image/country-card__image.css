@@ -1,0 +1,11 @@
+.country-card__image {
+  width: 259px;
+  height: 389px;
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}

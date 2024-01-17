@@ -1,0 +1,18 @@
+.reservation-box__title {
+  margin: 0;
+  margin-top: 26px;
+  padding: 0;
+  color: #fff;
+  font-family: 'Playfair', 'Arial', sans-serif;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+@media screen and (max-width: 940px) {
+  .reservation-box__title {
+    font-size: 28px;
+    text-align: center;
+  }
+}
+

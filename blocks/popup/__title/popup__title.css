@@ -1,0 +1,13 @@
+.popup__title{
+  font-size: 60px;
+}
+
+.popup__title:hover{
+  cursor: pointer;
+}
+
+@media screen and (max-width: 940px) {
+  .popup__title {
+    font-size: 20px;
+  }
+}

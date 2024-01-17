@@ -1,0 +1,18 @@
+.reservation-box{
+  width: 100%;
+  min-height: 254px;
+  margin-top: 217px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.70);
+  gap: 22px;
+}
+
+@media screen and (max-width: 940px) {
+  .reservation-box {
+    margin-top: 35px;
+    background: #025951;
+  }
+}
+

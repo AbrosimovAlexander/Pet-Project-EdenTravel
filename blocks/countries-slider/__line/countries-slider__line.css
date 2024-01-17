@@ -1,0 +1,7 @@
+.countries-slider__line{
+  width: 100%;
+  display: flex;
+  position: relative;
+  left: 0;
+  gap: 32px;
+}

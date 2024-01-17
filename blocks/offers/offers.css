@@ -1,0 +1,21 @@
+.offers {
+  width: 100%;
+  max-width: 1131px;
+  box-sizing: border-box;
+
+  display: grid;
+  column-gap: 30px;
+  row-gap: 30px;
+  justify-items: center;
+  align-items: center;
+  grid-template-columns: repeat(auto-fit, minmax(357px, 1fr));
+  grid-template-rows: repeat(auto-fit, minmax(357px, 1fr));
+  position: relative;
+}
+
+@media screen and (max-width: 940px) {
+  .offers {
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-rows: repeat(auto-fit, minmax(300px, 1fr));
+  }
+}

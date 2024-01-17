@@ -1,0 +1,9 @@
+.popup__price_span{
+  font-size: 90px;
+}
+
+@media screen and (max-width: 940px) {
+  .popup__price_span {
+    font-size: 36px;
+  }
+}

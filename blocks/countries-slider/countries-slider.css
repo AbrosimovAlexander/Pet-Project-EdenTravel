@@ -1,0 +1,8 @@
+.countries-slider{
+  width: 100%;
+  max-width: 1240px;
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+  align-items: center;
+}

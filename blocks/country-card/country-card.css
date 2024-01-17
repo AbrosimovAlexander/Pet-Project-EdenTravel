@@ -1,0 +1,25 @@
+.country-card {
+  min-width: 259px;
+  height: 389px;
+  border-radius: 25px;
+  background: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 0.7) 20.33%,
+    rgba(0, 0, 0, 0) 50%
+  );
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  justify-content: flex-end;
+  align-items: center;
+  box-sizing: border-box;
+  overflow: hidden;
+  padding-bottom: 31px;
+}
+
+@media screen and (max-width: 940px) {
+  .country-card {
+    min-width: 300px;
+    height: 370px;
+  }
+}

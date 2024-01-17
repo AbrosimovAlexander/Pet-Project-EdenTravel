@@ -1,0 +1,8 @@
+.country-card__flag-box{
+  margin-top: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 7px;
+  
+}

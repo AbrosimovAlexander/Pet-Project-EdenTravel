@@ -1,0 +1,9 @@
+.tour-types__text-block{
+  margin-top: 69.73px;
+}
+
+@media screen and (max-width: 940px) {
+  .tour-types__text-block {
+    margin-top: 20px;
+  }
+}

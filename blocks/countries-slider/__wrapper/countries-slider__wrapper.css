@@ -1,0 +1,14 @@
+.countries-slider__wrapper{
+  width: 100%;
+  max-width: 1131px;
+  display: inline-block;
+  vertical-align: middle;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 940px) {
+  .countries-slider__wrapper {
+    max-width: 320px;
+  }
+}

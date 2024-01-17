@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Alexander Abrosimov" />
+    <meta name="description" content="Страница туристической компании" />
+    <meta name="keywords" content="Туризм, бронирование, поездки" />
+    <link rel="stylesheet" href="./pages/index.css" />
+    <title>Eden Travel</title>
+  </head>
+  <body>
+    <div class="page">
+      <!-- Первый раздел сайта (шапка) -->
+      <header class="header">
+        <div class="header__top">
+          <div class="logo header__logo">
+            <img
+              src="./Icons/Label.svg"
+              alt="Логотип компании"
+              class="header__logo_image"
+            />
+            <h2 class="logo__text header__logo_text">
+              <span class="logo__text_first-word">Eden</span>Travel
+            </h2>
+          </div>
+          <ul class="header__menu">
+            <li><a href="#" class="header__menu_item">Home</a></li>
+            <li><a href="#" class="header__menu_item">Tour</a></li>
+            <li><a href="#" class="header__menu_item">Blog</a></li>
+            <li><a href="#" class="header__menu_item">Pages</a></li>
+            <li><a href="#" class="header__menu_item">Contact</a></li>
+          </ul>
+          <div class="header__container-popup-menu">
+            <button class="header__menu-button" type="button"></button>
+          <ul class="header__popup-menu">
+            <li><a href="#" class="header__menu_item">Home</a></li>
+            <li><a href="#" class="header__menu_item">Tour</a></li>
+            <li><a href="#" class="header__menu_item">Blog</a></li>
+            <li><a href="#" class="header__menu_item">Pages</a></li>
+            <li><a href="#" class="header__menu_item">Contact</a></li>
+          </ul>
+          </div>
+        </div>
+        <div class="header__text">
+          <h1 class="header__text_title">
+            Welcome to the World of Extraordinary Travel
+          </h1>
+          <p class="header__text_paragraph">
+            If you're in search of exciting adventures, unforgettable
+            experiences, and breathtaking places to explore, you've come to the
+            right place!
+          </p>
+        </div>
+        <div class="reservation-box">
+          <h2 class="reservation-box__title">Plan your travel now</h2>
+          <div class="reservation-box__content">
+            <div class="input-box">
+              <p class="input-box__title">Search Destination*</p>
+              <input
+                type="text"
+                class="input-box__input"
+                name="input-box__Enter-Destination"
+                id="input-box__Enter-Destination"
+                placeholder="Enter Destination"
+                minlength="2"
+                maxlength="40"
+                required
+                pattern="^[a-zA-Zа-яА-ЯёЁ -]+$"
+                data-error-message="Разрешены только латинские, кириллические буквы, знаки дефиса и пробелы"
+              />
+            </div>
+            <div class="input-box">
+              <p class="input-box__title">Pax Number*</p>
+              <input
+                type="number"
+                class="input-box__input"
+                name="input-box__Num-of-people"
+                id="input-box__Num-of-people"
+                placeholder="No.of People"
+                min="1"
+                max="100"
+                step="1"
+                required
+              />
+            </div>
+            <div class="input-box">
+              <p class="input-box__title">Checkin Date*</p>
+              <input
+                type="date"
+                class="input-box__input"
+                name="input-box__Checkin-Date"
+                id="input-box__Checkin-Date"
+                placeholder="MM / DD / YYYY"
+                required
+              />
+            </div>
+            <div class="input-box">
+              <p class="input-box__title">Checkout Date*</p>
+              <input
+                type="date"
+                class="input-box__input"
+                name="input-box__Checkout-Date"
+                id="input-box__Checkout-Date"
+                placeholder="MM / DD / YYYY"
+                required
+              />
+            </div>
+            <button class="reservation-box__button" type="submit">
+              SEARCH
+            </button>
+          </div>
+        </div>
+      </header>
+      <main class="content">
+        <!-- Второй раздел сайта. Виды туров -->
+        <section class="tour-types">
+          <div class="block__text-block tour-types__text-block">
+            <p class="block__article tour-types__article">Tour Types</p>
+            <h2 class="block__title tour-types__title">Adventure & Activity</h2>
+            <p class="block__main-text tour-types__main-text">
+              Explore thrilling destinations that will get your heart racing.
+              From rugged mountains to dense jungles, embark on unforgettable
+              journeys that will test your limits and create lasting memories.
+              Dive into the unknown, conquer nature's challenges, and write your
+              own epic tale of adventure.
+            </p>
+          </div>
+          <div class="tour-types__icons-box">
+            <div class="icon-box">
+              <img
+                src="./Icons/icon camping.svg"
+                alt="Значок кэмпинга"
+                class="icon-box__icon"
+              />
+              <h3 class="icon-box__title">Camping</h3>
+              <p class="icon-box__text">
+                13 nature escapes, tents, RVs, cabins, outdoor experiences
+              </p>
+            </div>
+            <div class="icon-box">
+              <img
+                src="./Icons/icon trekking.svg"
+                alt="Значок палатки"
+                class="icon-box__icon"
+              />
+              <h3 class="icon-box__title">Trekking</h3>
+              <p class="icon-box__text">
+                Breathtaking landscapes, hidden trails, remote villages, natural
+                beauty
+              </p>
+            </div>
+            <div class="icon-box">
+              <img
+                src="./Icons/icon fire.svg"
+                alt="Значок костра"
+                class="icon-box__icon"
+              />
+              <h3 class="icon-box__title">Camp Fire</h3>
+              <p class="icon-box__text">
+                7 unique destinations, marshmallow roasting, nature connection
+              </p>
+            </div>
+            <div class="icon-box">
+              <img
+                src="./Icons/icon exploring.svg"
+                alt="Значок карты"
+                class="icon-box__icon"
+              />
+              <h3 class="icon-box__title">Exploring</h3>
+              <p class="icon-box__text">
+                25 diverse destinations, historical cities, hidden gems, unique
+                charm
+              </p>
+            </div>
+          </div>
+        </section>
+        <!-- Третий раздел сайта. Куда пойти -->
+        <section class="where-to-go">
+          <div class="block__text-block where-to-go__text-block">
+            <p class="block__article where-to-go__article">Where to go</p>
+            <h2 class="block__title where-to-go__title">
+              Popular destinations
+            </h2>
+            <p class="block__main-text where-to-go__main-text">
+              Explore our curated selection of the world's most sought-after
+              travel spots in this diverse list of must-visit places. From
+              iconic cities to pristine natural wonders, we've gathered the best
+              destinations to ignite your wanderlust.
+            </p>
+          </div>
+          <!-- Слайдер -->
+          <div class="slider">
+            <div class="countries-slider">
+              <button
+                class="slider__button"
+                id="countries-slider__prev-button"
+                type="button"
+              >
+                &larr;
+              </button>
+              <div class="countries-slider__wrapper">
+                <div class="countries-slider__line">
+                  <template id="country-card-template">
+                    <div class="country-card">
+                      <img src="" alt="" class="country-card__image" />
+                      <div class="country-card__text-content">
+                        <h3 class="country-card__title"></h3>
+                        <div class="country-card__flag-box">
+                          <img src="" alt="" class="country-card__flag" />
+                          <p class="country-card__country-name"></p>
+                        </div>
+                        <p class="country-card__price">
+                          Price starts at
+                          <span class="country-card__price_span"></span>
+                        </p>
+                        <img
+                          src="./Icons/stars.svg"
+                          alt="Количество звезд"
+                          class="country-card__stars"
+                        />
+                      </div>
+                    </div>
+                  </template>
+                </div>
+              </div>
+              <button
+                class="slider__button"
+                id="countries-slider__next-button"
+                type="button"
+              >
+                &rarr;
+              </button>
+            </div>
+            <div class="slider__dots-wrapper"></div>
+          </div>
+        </section>
+        <!-- Четвертый раздел сайта. Лучшие предложения -->
+        <section class="best-offers">
+          <div class="block__text-block best-offers__text-block">
+            <p class="block__article">Best Offers</p>
+            <h2 class="block__title">Top Deals and Discounts</h2>
+          </div>
+          <div class="offers">
+            <template id="offer-template">
+              <div class="offer">
+                <a href="#" class="offer__title"></a>
+                <p class="offer__price">
+                  <span class="offer__price_span"></span> Price stars from
+                </p>
+                <div class="offer__shadow"></div>
+              </div>
+            </template>
+            <div class="popup">
+              <button class="popup__close-button" type="button"></button>
+              <div class="offer popup__offer">
+                <p class="offer__title popup__title"></p>
+                <p class="offer__price popup__price">
+                  <span class="offer__price_span popup__price_span"></span>
+                  Price stars from
+                </p>
+                <div class="offer__shadow"></div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+      <!-- Подвал сайта -->
+      <footer class="footer">
+        <div class="footer__text-content">
+          <div class="footer__left-part">
+            <h3 class="footer__title">Need any help?</h3>
+            <div class="footer__contact-zone">
+              <p class="footer__text">Call 24/7 for any help</p>
+              <p class="footer__span">+00 123 456 789</p>
+            </div>
+            <div class="footer__contact-zone">
+              <p class="footer__text">Mail to our support team</p>
+              <p class="footer__span">support@domain.com</p>
+            </div>
+            <div class="footer__contact-zone">
+              <p class="footer__text">Follow us on</p>
+              <div class="footer__icon-box">
+                <img
+                  src="./Icons/facebook.svg"
+                  alt="Значок Facebook"
+                  class="footer__icon"
+                />
+                <img
+                  src="./Icons/instagram.svg"
+                  alt="Значок Instagram"
+                  class="footer__icon"
+                />
+                <img
+                  src="./Icons/twitter.svg"
+                  alt="Значок Twitter"
+                  class="footer__icon"
+                />
+                <img
+                  src="./Icons/youtube.svg"
+                  alt="Значок YouTube"
+                  class="footer__icon"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="footer__right-part">
+            <div class="footer__column-box">
+              <h3 class="footer__title">Company</h3>
+              <ul class="footer__column">
+                <li class="footer__text">About Us</li>
+                <li class="footer__text">Testimonials</li>
+                <li class="footer__text">Rewards</li>
+                <li class="footer__text">Work with Us</li>
+                <li class="footer__text">Meet the Team</li>
+                <li class="footer__text">Blog</li>
+              </ul>
+            </div>
+            <div class="footer__column-box">
+              <h3 class="footer__title">Support</h3>
+              <ul class="footer__column">
+                <li class="footer__text">Account</li>
+                <li class="footer__text">Faq</li>
+                <li class="footer__text">Legal</li>
+                <li class="footer__text">Contact</li>
+                <li class="footer__text">Affiliate Program</li>
+                <li class="footer__text">Privacy Policy</li>
+              </ul>
+            </div>
+            <div class="footer__column-box">
+              <h3 class="footer__title">Services</h3>
+              <ul class="footer__column">
+                <li class="footer__text">Coomunity Program</li>
+                <li class="footer__text">Investor Relations</li>
+                <li class="footer__text">Rewards Program</li>
+                <li class="footer__text">Points Plus</li>
+                <li class="footer__text">Partners</li>
+                <li class="footer__text">List My Hotel</li>
+              </ul>
+            </div>
+            <div class="footer__column-box">
+              <h3 class="footer__title">Top Cities</h3>
+              <ul class="footer__column">
+                <li class="footer__text">Rome</li>
+                <li class="footer__text">Madrid</li>
+                <li class="footer__text">New York</li>
+                <li class="footer__text">Hong Kong</li>
+                <li class="footer__text">Paris</li>
+                <li class="footer__text">Tokyo</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="footer__bottom">
+          <p class="footer__copyright">Copyright © 2023 Kunturi Design</p>
+          <div class="logo footer__logo">
+            <img
+              src="./Icons/Label.svg"
+              alt="Логотип компании"
+              class="footer__logo_image"
+            />
+            <h2 class="logo__text footer__logo_text">
+              <span class="logo__text_first-word">Eden</span>Travel
+            </h2>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script src="./pages/index.js"></script>
+  </body>
+</html>

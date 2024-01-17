@@ -1,0 +1,27 @@
+.input-box__input {
+  margin: 0;
+  padding: 0;
+  padding-left: 13.61px;
+  padding-right: 14.66px;
+  box-sizing: border-box;
+  width: 209.444px;
+  height: 50px;
+  border-radius: 8px;
+  background: #fff;
+  box-decoration-break: unset;
+  color: #999;
+  font-family: "DMSans", "Arial", sans-serif;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  border: none;
+}
+
+.input-box__input::-webkit-calendar-picker-indicator {
+  color: transparent;
+  opacity: 1;
+  background: url(../../../Icons/icon\ calendar.svg) no-repeat center;
+  background-size: contain;
+  width: 18.85px;
+  height: 24.393px;
+}

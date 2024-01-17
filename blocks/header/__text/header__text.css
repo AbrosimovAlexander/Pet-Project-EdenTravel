@@ -1,0 +1,16 @@
+.header__text{
+  margin-top: 154px;
+  display: flex;
+  flex-direction: column;
+  align-self: flex-end;
+  margin-right: 69px;
+  gap: 31px;
+}
+
+@media screen and (max-width: 940px) {
+  .header__text {
+    margin-top: 20px;
+    margin-right: 0;
+    align-self: center;
+  }
+}

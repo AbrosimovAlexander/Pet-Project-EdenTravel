@@ -1,0 +1,7 @@
+.slider__dots-wrapper{
+  margin-top: 30px;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}

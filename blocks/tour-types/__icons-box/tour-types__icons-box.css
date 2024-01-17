@@ -1,0 +1,14 @@
+.tour-types__icons-box{
+  width: 100%;
+  max-width: 1131px;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+@media screen and (max-width: 940px) {
+  .tour-types__icons-box {
+    flex-direction: column;
+    padding-bottom: 40px;
+  }
+}

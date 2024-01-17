@@ -1,0 +1,13 @@
+.footer__right-part{
+  display: flex;
+  justify-content: space-between;
+  gap: 60px;
+}
+
+@media screen and (max-width: 940px) {
+  .footer__right-part {
+    margin-top: 30px;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+}

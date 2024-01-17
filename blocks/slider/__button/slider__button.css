@@ -1,0 +1,19 @@
+.slider__button {
+  border: none;
+  background-color: rgba(23, 195, 178, 1);
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  color: white;
+}
+
+.slider__button:hover{
+  cursor: pointer;
+  scale: 1.2;
+}
+
+@media screen and (max-width: 940px) {
+  .slider__button {
+    visibility: hidden;
+  }
+}

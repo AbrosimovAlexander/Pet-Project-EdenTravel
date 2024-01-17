@@ -1,0 +1,17 @@
+.block__main-text {
+  margin: 0;
+  margin-top: 10px;
+  padding: 0;
+  color: #333;
+  font-family: 'Roboto', 'Arial', sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+@media screen and (max-width: 940px) {
+  .block__main-text {
+    font-size: 18px;
+  }
+}
+

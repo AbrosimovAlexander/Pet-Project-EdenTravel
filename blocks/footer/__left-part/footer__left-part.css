@@ -1,0 +1,12 @@
+.footer__left-part{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 244px;
+}
+
+@media screen and (max-width: 940px) {
+  .footer__left-part {
+    align-items: center;
+  }
+}

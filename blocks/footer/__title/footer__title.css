@@ -1,0 +1,15 @@
+.footer__title {
+  margin: 0;
+  padding: 0;
+  color: #333;
+  font-family: 'Roboto', 'Arial', sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+}
+
+@media screen and (max-width: 940px) {
+  .footer__title {
+    color: #17C3B2;
+  }
+}

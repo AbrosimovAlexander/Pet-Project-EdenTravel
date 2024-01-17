@@ -1,0 +1,9 @@
+.input-box{
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  justify-content: flex-start;
+  width: 100%;
+  max-width: 209.444px;;
+}
+

@@ -1,0 +1,19 @@
+.header__text_title {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  max-width: 802px;
+  color: #fff;
+  font-family: 'Playfair', 'Arial', sans-serif;
+  font-size: 69.167px;
+  font-style: normal;
+  font-weight: 700;
+  text-align: center;
+}
+
+@media screen and (max-width: 940px) {
+  .header__text_title {
+    font-size: 44px;
+  }
+}
+

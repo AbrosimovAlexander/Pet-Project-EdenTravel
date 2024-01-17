@@ -1,0 +1,18 @@
+.header__text_paragraph {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  max-width: 752px;
+  color: #fff;
+  font-family: 'Roboto', 'Arial', sans-serif;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  text-align: center;
+}
+
+@media screen and (max-width: 940px) {
+  .header__text_paragraph {
+    font-size: 20px;
+  }
+}

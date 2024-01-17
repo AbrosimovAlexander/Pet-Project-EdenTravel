@@ -1,0 +1,16 @@
+.footer__bottom{
+  width: 100%;
+  padding-top: 30px;
+  max-width: 1131px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid #DDD;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 940px) {
+  .footer__bottom {
+    justify-content: center;
+  }
+}
